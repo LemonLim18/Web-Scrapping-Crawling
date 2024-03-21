@@ -3,7 +3,9 @@
 ## Definitions
 - **Web Scraping**: Extracting data from a website.
 - **Web Crawling**: Finding links/URL branches off a website.
+  
 ![image](https://github.com/LemonLim18/Web-Scrapping-Crawling/assets/116692908/bd21774e-d57a-44e2-b1f9-394466fbc5c7)
+![image](https://github.com/LemonLim18/Web-Scrapping-Crawling/assets/116692908/0709c456-6c4a-437c-97e2-492acbca3b7d)
 
 ## Scrapy
 
@@ -22,5 +24,3 @@ For example, `response.css().get()` retrieves the first line of code with the id
 ### Scrapy Shell
 
 `scrapy shell target_website_url` opens the page interactively on the Scrapy shell using the terminal CLI. This means that you can request and get the response interactively with a live website using the terminal.
-
-![image](https://github.com/LemonLim18/Web-Scrapping-Crawling/assets/116692908/0709c456-6c4a-437c-97e2-492acbca3b7d)
