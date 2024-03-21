@@ -23,3 +23,6 @@ For example, `response.css().get()` retrieves the first line of code with the id
 ### Scrapy Shell
 
 `scrapy shell target_website_url` opens the page interactively on the Scrapy shell using the terminal CLI. This means that you can request and get the response interactively with a live website using the terminal.
+
+## Proxy Server
+![image](https://github.com/LemonLim18/Web-Scrapping-Crawling/assets/116692908/cae6292b-3726-4bb2-8230-7d3f6120ee5d)
