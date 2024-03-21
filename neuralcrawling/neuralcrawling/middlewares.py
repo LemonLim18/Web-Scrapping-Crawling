@@ -87,6 +87,8 @@ class NeuralcrawlingDownloaderMiddleware:
         # - return a Response object
         # - return a Request object
         # - or raise IgnoreRequest
+        # Configuring the request to use the proxy server located at the specified IP address
+        request.meta["proxy"] = "127.0.0.1"
         return response
 
     def process_exception(self, request, exception, spider):
